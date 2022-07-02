@@ -19,17 +19,8 @@ const routes = [
         component: () => import(/* webpackChunkName: "ContactPage" */ '@/modules/contact/pages/ContactPage.vue')
     },
     { 
-        path: '/portfolio/id', 
-        name: 'project-id',
-        component: () => import(/* webpackChunkName: "PortfolioPage" */ '@/modules/portfolio/pages/PortfolioPage.vue'),
-        props: ( router ) => {
-            /* const id = Number(route.params.id);
-
-            return isNaN( id ) ? { id: 0 } : { id } */
-
-            console.log(router)
-
-        }
+        path: '/portfolio', 
+        component: () => import(/* webpackChunkName: "ContactPage" */ '@/modules/portfolio/pages/PortfolioPage.vue')
     },
     { 
         path: '/:pathMatch(.*)*', 

@@ -1,6 +1,5 @@
 <template>
     <NavBar />
-    <img alt="Vue logo" src="./assets/logo.png">
     <router-view />
     
   
@@ -31,8 +30,12 @@ export default {
   
 }
 body{
-/*   background: black;
- */}
+  background: linear-gradient(
+        rgba(2, 3, 10, 0.7),
+        rgba(3, 1, 22, 0.7)
+      ), url('@/assets/img/fondo-web.jpg');
+      
+}
 li a{
   color: white;
 }
