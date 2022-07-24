@@ -6,8 +6,8 @@
                 <img src="@/assets/img/FotoPortafolio.jpg" alt="" class="img-portfolio">
             </div>
             <div class="col-12 col-md-4 welcome-message">
-                <h2>¡Hola!, Mi nombre es Erick Castillo</h2>
-                <h3>Soy desarrollador web Fullstack <font-awesome-icon icon="fa-brands fa-twitter" /></h3>
+                <h2 class="animate__animated animate__backInDown">¡Hola!, Mi nombre es Erick Castillo</h2>
+                <h3 class="animate__animated animate__backInUp">Soy desarrollador web Fullstack</h3>
             </div>
         </div>
     </div>

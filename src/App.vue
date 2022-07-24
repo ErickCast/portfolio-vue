@@ -34,7 +34,7 @@ body{
         rgba(2, 3, 10, 0.7),
         rgba(3, 1, 22, 0.7)
       ), url('@/assets/img/fondo-web.jpg');
-      
+  background-attachment: fixed;
 }
 li a{
   color: white;

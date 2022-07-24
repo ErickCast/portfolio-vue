@@ -3,19 +3,23 @@
     <div class="container">
         <div class="row justify-content-around">
             <div class="col-12 col-lg-4">
-                
-                <div class="button">
-                    <img src="@/assets/img/web-applications.png" alt="" class="aplicacionesWeb-img">
-                    <p>Aplicaciones Web</p> 
-                </div>
+                <router-link class="nav-link" to="/web">
+                    <div class="button animate__animated animate__fadeInLeft">
+                        <img src="@/assets/img/web-applications.png" alt="" class="aplicacionesWeb-img">
+                        <p>Aplicaciones Web</p> 
+                    </div>
+                </router-link>
+
                 
             </div>
-            <div class="col-12 col-lg-4 mt-3 mt-md-0">
-
-                <div class="button">
-                    <img src="@/assets/img/mobile-applications.png" alt="" class="aplicacionesWeb-img">
-                    <p>Aplicaciones Moviles</p>
-                </div>
+            <div class="col-12 col-lg-4 mt-3 mt-md-0 ">
+                <router-link class="nav-link" to="/mobile">
+                    <div class="button animate__animated animate__fadeInRight">
+                        <img src="@/assets/img/mobile-applications.png" alt="" class="aplicacionesWeb-img">
+                        <p>Aplicaciones Moviles</p>
+                        
+                    </div>
+                </router-link>
                 
             </div>
         </div>

@@ -1,0 +1,46 @@
+{
+"webProjects": [
+    {
+        "id": 1,
+        "name": "TuCasaIdeal",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reiciendis sequi sed fuga quibusdam dignissimos perferendis hic repudiandae eveniet numquam quaerat quas, nostrum, at reprehenderit mollitia possimus saepe necessitatibus tempora?",
+        "imgPath": "portfolio1.png",
+        "host": "https://tucasaideal.com.mx/",
+        "github": ""
+
+    },
+    {
+        "id": 2,
+        "name": "HardTech - Tienda de Hardware",
+        "descripcion": "lorem ipsum dolor",
+        "imgPath": "portfolio2.png",
+        "host": "",
+        "github": "https://github.com/ErickCast/HARDTECH"
+
+    },
+    {
+        "id": 3,
+        "name": "Aplicacion administrable de pedidos",
+        "descripcion": "lorem ipsum dolor",
+        "imgPath": "portfolio3.png",
+        "host": "",
+        "github": "https://github.com/ErickCast/Proyecto-prueba-1"
+
+    },
+    {
+        "id": 4,
+        "name": "Castillo Gym",
+        "descripcion": "lorem ipsum dolor",
+        "imgPath": "portfolio4.png",
+        "host": "",
+        "github": "https://github.com/ErickCast/Proyecto-prueba-1"
+
+    }
+],
+"mobileProjects": [
+    {
+
+
+    }
+]
+}

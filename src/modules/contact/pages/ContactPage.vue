@@ -59,15 +59,15 @@
     
 }
 .data-contact p svg{
-    color: rgb(18, 187, 18);
+    color: #246fd1;
     font-size: 25px;
 }
 
 .formulario {
     background-color:rgba(18, 26, 21, 0.5);
     padding: 50px 50px;
-    border-radius:15px ;
-    border: 3px solid green;
+    border-radius:15px;
+    border: 3px solid #246fd1;
 }
 .form-group {
     margin-bottom: 50px;

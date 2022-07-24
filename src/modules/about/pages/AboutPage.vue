@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-    <div class="row section-about">
+    <div class="row section-about animate__animated animate__fadeIn">
         <div class="col-12">
             <h1>Sobre mi</h1>
             <img src="@/assets/img/img-about.jpg" alt="" class="img-about">
