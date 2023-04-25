@@ -1,6 +1,7 @@
 <template>
     <div class="container">
         <div class="row justify-content-around">
+            <router-link class="nav-link mt-3" to="/portfolio"><p style="color: white; font-weight: bolder;">Volver a categorias</p></router-link>
             <div v-for="project in projects" :key="project.id" class="col-12 col-lg-4" >
                 <router-link class="nav-link" :to="'/portfolio-about/' + project.id">
                     <div class="button bg-dark">

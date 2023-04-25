@@ -12,6 +12,17 @@ export const getWebProjectById = (id) => {
     return project;
 }
 
+export const getMobileProjects = () => {
+    const mobileProjects = JSON.parse(JSON.stringify(portfolio.mobileProjects));
+    return mobileProjects;
+}
+
+export const getMobileProjectById = (id) => {
+    let project = getMobileProjects();
+    project = project.filter(project => project.id == id);
+    return project;
+}
+
 /* export const getImgPath = (path) => {
     if( path !== '' ) {
         try {
