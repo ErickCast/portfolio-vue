@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
         <div class="col-12 text-left">
-            <router-link class="nav-link" to="/web"><p style="color: white; font-weight: bolder;">Volver a proyectos</p></router-link>
+            <router-link class="nav-link btn btn-secondary btnVolver mb-3" to="/web"><p style="color: white; font-weight: bolder;"><font-awesome-icon icon="fa fa-arrow-left" /> Volver a proyectos</p></router-link>
         </div>
         <div class="col-12 col-lg-6">
             <div class="image-proyect">
@@ -105,4 +105,9 @@ export default {
     background-color:rgb(214, 214, 214);
     color: black;
 }
+.btnVolver {
+        width: 25%;
+        height: 30px;
+        margin: 0 auto;
+    }
 </style>

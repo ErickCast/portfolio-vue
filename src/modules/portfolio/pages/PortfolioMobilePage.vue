@@ -1,7 +1,16 @@
 <template>
     <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <router-link class="nav-link btn btn-secondary btnVolver mt-2" to="/portfolio">
+                    <p style="color: white; font-weight: bolder;">
+                    <font-awesome-icon icon="fa fa-arrow-left" />                    
+                    Volver a categorias
+                    </p>
+                </router-link>
+            </div>
+        </div>
         <div class="row justify-content-around">
-          <router-link class="nav-link mt-3" to="/portfolio"><p style="color: white; font-weight: bolder;">Volver a categorias</p></router-link>
             <div v-for="project in projects" :key="project.id" class="col-12 col-lg-4" >
                 <router-link class="nav-link" :to="'/portfolio-about/' + project.id">
                     <div class="button bg-dark">
@@ -53,6 +62,14 @@ export default {
 </script>
 
 
-<style>
-
+<style scoped>
+    .container {
+        margin-top: 50px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .btnVolver {
+        width: 25%;
+        height: 30px;
+        margin: 0 auto;
+    }
 </style>

@@ -2,7 +2,7 @@
     
     <div class="container">
         <div class="row justify-content-around">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-lg-4">
                 <img src="@/assets/img/FotoPortafolio.jpg" alt="" class="img-portfolio">
             </div>
             <div class="col-12 col-md-4 welcome-message">
@@ -31,5 +31,10 @@
 .welcome-message h2, .welcome-message h3 {
     font-weight: bolder;
     font-size: 33px;
+}
+@media only screen and (max-width: 991px){
+    .welcome-message {
+        margin-top:30px
+    }
 }
 </style>

@@ -1,15 +1,11 @@
 <template>
 <div class="container">
     <div class="row section-about animate__animated animate__fadeIn">
-        <div class="col-12">
+        <div class="col-12 mt-3">
             <h1>Sobre mi</h1>
             <img src="@/assets/img/img-about.jpg" alt="" class="img-about">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio fuga deleniti vel corrupti doloremque non est nesciunt veniam esse officia, consequuntur ipsum atque cupiditate soluta? Illo nisi dolores rerum asperiores
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio fuga deleniti vel corrupti doloremque non est nesciunt veniam esse officia, consequuntur ipsum atque cupiditate soluta? Illo nisi dolores rerum asperiores
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio fuga deleniti vel corrupti doloremque non est nesciunt veniam esse officia, consequuntur ipsum atque cupiditate soluta? Illo nisi dolores rerum asperiores
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio fuga deleniti vel corrupti doloremque non est nesciunt veniam esse officia, consequuntur ipsum atque cupiditate soluta? Illo nisi dolores rerum asperiores
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio fuga deleniti vel corrupti doloremque non est nesciunt veniam esse officia, consequuntur ipsum atque cupiditate soluta? Illo nisi dolores rerum asperiores    
-            .</p>
+            <p>Mi nombre es Erick Castillo, soy desarrollador de software especializado en desarrollo web, con años de experiencia programando.
+En mis tiempos libres suelo resolver algoritmos, trabajar en mis proyectos personales y también capacitarme en diferentes temas, ya sea con cursos, leyendo o tomando acción de lo que aprendo.</p>
             <h3>Esta es mi trayectoria como desarrollador</h3>
             <div class="row" v-for="trabajo in arrTrayectoria" :key="trabajo.id">
                 
@@ -44,7 +40,7 @@
                         fechaFin: 'Febrero de 2021',
                         puesto: 'Desarrollador Web FullStack',
                         empresa: 'TuCasaIdeal',
-                        descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum temporibus deleniti repellendus corrupti quibusdam quod quos ipsum placeat magni libero quia, aliquam similique a doloremque eos ullam qui ratione! Iusto',
+                        descripcion: 'En mi trabajo en esta empresa la cual es una inmobiliaria, desarrolle e hice mantenimiento a una aplicacion web para la misma.',
                         ubicacion: 'Culiacan Rosales, Sinaloa, Mexico'
                     },
                     {
@@ -53,7 +49,7 @@
                         fechaFin: 'Agosto de 2021',
                         puesto: 'Desarrollador Web',
                         empresa: 'Parque de Innovacion Tecnologica UAS',
-                        descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum temporibus deleniti repellendus corrupti quibusdam quod quos ipsum placeat magni libero quia, aliquam similique a doloremque eos ullam qui ratione! Iusto',
+                        descripcion: 'Como parte de mi servicio social de la escuela, estuve como desarrollador en esta empresa, donde Recibí capacitaciones en las tecnologías CodeIgniter, React.js y Flutter. Posteriormente trabaje en el desarrollo de una aplicación web con React.js, Material-UI y CodeIgniter.',
                         ubicacion: 'Culiacan Rosales, Sinaloa, Mexico'
                     },
                     {
@@ -62,7 +58,7 @@
                         fechaFin: 'Actualidad',
                         puesto: 'Desarrollador',
                         empresa: 'Afore Coppel',
-                        descripcion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum temporibus deleniti repellendus corrupti quibusdam quod quos ipsum placeat magni libero quia, aliquam similique a doloremque eos ullam qui ratione! Iusto',
+                        descripcion: 'En mi actual trabajo como desarrollador de software, me encargo de crear soluciones y aportar en el equipo en el que estoy para entregar un producto de calidad y cumplir con las fechas de entrega.',
                         ubicacion: 'Culiacan Rosales, Sinaloa, Mexico'
                     }
                 ]
